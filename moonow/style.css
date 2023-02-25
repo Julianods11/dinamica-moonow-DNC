@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: linear-gradient(136.31deg, #0C0F07 14.16%, #1F102B 53.39%, #23193E 82.63%);
+    background-repeat: no-repeat;
+}
+#menu{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 20%;
+}
+#logo{
+    display: flex;
+    flex-direction: column;
+}
+#logo img{
+    margin: 10px 30px;
+    padding: 10px;
+}
+#itens{
+    display: flex;
+    justify-content: space-around;
+    justify-content: right;
+}
+#itens ul{
+    display: inline-flex;
+    align-items: center;
+    justify-content:right;
+    margin-right: 8rem;
+}
+#itens ul li{
+    display: inline-flex;
+    text-decoration: none;
+    color: #E0DAED;
+    text-transform: uppercase;
+    font-family: 'Baloo Bhaina 2', cursive;
+    margin-left: 30px;   
+    font-weight: 800; 
+    cursor: pointer;
+}
+#itens ul li:hover{
+    transform: scale(1.1);
+}
+.container{
+    display: grid;
+    grid-auto-flow: column;
+    grid-template-columns: 50%;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+}
+#form p {
+    color: #9F7FDBCC;
+    font-family: 'Baloo Bhaina 2';
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 50px;
+    text-align: center;
+}
+#form input{
+    width: 22rem;
+    height: 2.5rem;
+    margin: 1rem 2rem;
+    background-color: #9F7FDB;
+    border-radius: 10px;
+    padding: 5px 30px;
+    font-family: 'Baloo Bhaina 2', cursive;
+    color: white;
+    font-size: 1rem;
+}
+#form input::placeholder{
+    color: white;
+    font-size: 1rem;
+}
+#buttons{
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 50% , 50%;
+    justify-content: space-around;
+}
+#button1{
+    width: 15rem;
+    height: 4rem;
+    background: #7834F3;
+    border-radius: 8px;
+    border: 0;
+    margin:  20px 30px;
+    color: white;
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 1.2rem;
+    cursor: pointer;
+
+}
+#button1:hover{
+    background:  #391877;
+    box-shadow: 3px 5px 7px #391877;
+}
+#button2{
+    width: 15rem;
+    height: 4rem;
+    background: #7834F3;
+    border-radius: 8px;
+    border: 0;
+    margin:  20px 30px;
+    color: white;
+    font-family: 'Baloo Bhaina 2', cursive;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background-color: #9F7FDB;
+}
+#button2:hover{
+    background:  #5d4688;
+    box-shadow: 3px 5px 7px #372558;
+}
+#image{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    
+}
+#image img{
+    margin-left: 3rem;
+}
+
